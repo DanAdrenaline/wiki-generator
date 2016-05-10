@@ -3,5 +3,14 @@
 ## Instructions
 
 1. Install all pacages with `npm install`
-2. Run a local instance with `npm run build`. This will serve it on `localhost:8000`
-3. When satisfied with your changes, do `npm run save-changes` to update the gatsby wiki. This will save the templates and commit changes with the date as the commit message `"Page built on date +"%d-%m-%Y %T"`
+2. Initialize and update the submodules `npm run init-pages`
+3. Clean and create the structure for the pages with `npm run create-struc`
+4. Build with `npm run build`
+5. Then copy the assets with `npm run copy-assets`
+6. Copy the templates with `npm run copy-templates`
+7. Run a local instance with `npm run start`. This will serve it on `http://0.0.0.0:8000/`
+8. When satisfied with your changes, do `npm run save-pages` to update the gatsby wiki. This will commit changes with the date as the commit message `"Page built on date +"%d-%m-%Y %T"`
+
+## Update Live Wiki
+
+If you just want to update the live wiki without making changes then just follow the steps and **skipt step 7**.
